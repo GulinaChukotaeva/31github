@@ -10,7 +10,9 @@
     background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url('https://cdn.pixabay.com/photo/2015/04/19/08/32/marguerite-729510_640.jpg');
     background-position: center;
     background-size: cover;
-    color: blue;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
 }
 .navbar {
     height: 12%;
@@ -30,4 +32,42 @@
 nav {
     flex: 1;
     text-align: right;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.row {
+    display: flex;
+    height: 88%;
+    align-items: center;
+}
+.col {
+    flex-basis: 50%;
+}
+
+h1 {
+    color: #fff;
+    font-size: 100px;
+}
+p {
+    color: #fff;
+    font: 11px;
+    line-height: 15px;
+    margin: 10px;
+}
+.btn {
+    width: 180px;
+    font-size: 15px;
+    padding: 12px 0;
+    border-radius: 20px;
+    margin-top: 30px;
 }
