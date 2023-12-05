@@ -71,3 +71,23 @@ p {
     border-radius: 20px;
     margin-top: 30px;
 }
+.card {
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    border-radius: 10x;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-image: url('https://secretlosangeles.com/wp-content/uploads/2021/05/WordPress-Banner-2023-02-07T153255.948-1024x683.png');
+    background-position: center;
+    background-size: cover;
+}
+h5 {
+    color: #fff;
+}
+
+.card p {
+    font-size: 8px;
+}
